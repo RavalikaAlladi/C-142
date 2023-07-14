@@ -35,6 +35,7 @@ def scrape():
         
         browser.find_element(by=By.XPATH,value='//*[@id="primary_column"]/footer/div/div/div/nav/span[2]/a').click()
 
+
 scrape()
 heading = ['NAME','LIGHT-YEARS FROM EARTH','PLANET MASS','STELLAR MAGNITUDE','DISCOVERY DATE']
 print(planets_data)
